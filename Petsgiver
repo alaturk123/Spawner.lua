@@ -1,0 +1,9 @@
+-- Kick Script: Too ENZO MARVELOUS
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer or Players:GetPlayers()[1]
+
+-- Optional delay before kick
+wait(2)
+
+-- Kick the player with a fabulous message
+player:Kick("You have been kicked for being TOO ENZO MARVELOUS 😎🔥")
